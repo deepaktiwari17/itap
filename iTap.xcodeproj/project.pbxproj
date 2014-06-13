@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		746FB803194ADCD60019D159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746FB802194ADCD60019D159 /* Foundation.framework */; };
+		746FB805194ADCD60019D159 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746FB804194ADCD60019D159 /* CoreGraphics.framework */; };
+		746FB807194ADCD60019D159 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746FB806194ADCD60019D159 /* UIKit.framework */; };
+		746FB80D194ADCD60019D159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 746FB80B194ADCD60019D159 /* InfoPlist.strings */; };
+		746FB80F194ADCD60019D159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FB80E194ADCD60019D159 /* main.m */; };
+		746FB813194ADCD60019D159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FB812194ADCD60019D159 /* AppDelegate.m */; };
+		746FB816194ADCD60019D159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746FB814194ADCD60019D159 /* Main.storyboard */; };
+		746FB819194ADCD60019D159 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FB818194ADCD60019D159 /* ViewController.m */; };
+		746FB81B194ADCD60019D159 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746FB81A194ADCD60019D159 /* Images.xcassets */; };
+		746FB822194ADCD60019D159 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746FB821194ADCD60019D159 /* XCTest.framework */; };
+		746FB823194ADCD60019D159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746FB802194ADCD60019D159 /* Foundation.framework */; };
+		746FB824194ADCD60019D159 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746FB806194ADCD60019D159 /* UIKit.framework */; };
+		746FB82C194ADCD60019D159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 746FB82A194ADCD60019D159 /* InfoPlist.strings */; };
+		746FB82E194ADCD60019D159 /* iTapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FB82D194ADCD60019D159 /* iTapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		746FB825194ADCD60019D159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746FB7F7194ADCD60019D159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746FB7FE194ADCD60019D159;
+			remoteInfo = iTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		746FB7FF194ADCD60019D159 /* iTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746FB802194ADCD60019D159 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		746FB804194ADCD60019D159 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		746FB806194ADCD60019D159 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		746FB80A194ADCD60019D159 /* iTap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTap-Info.plist"; sourceTree = "<group>"; };
+		746FB80C194ADCD60019D159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		746FB80E194ADCD60019D159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		746FB810194ADCD60019D159 /* iTap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTap-Prefix.pch"; sourceTree = "<group>"; };
+		746FB811194ADCD60019D159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		746FB812194ADCD60019D159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		746FB815194ADCD60019D159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746FB817194ADCD60019D159 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		746FB818194ADCD60019D159 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		746FB81A194ADCD60019D159 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		746FB820194ADCD60019D159 /* iTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746FB821194ADCD60019D159 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		746FB829194ADCD60019D159 /* iTapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTapTests-Info.plist"; sourceTree = "<group>"; };
+		746FB82B194ADCD60019D159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		746FB82D194ADCD60019D159 /* iTapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		746FB7FC194ADCD60019D159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746FB805194ADCD60019D159 /* CoreGraphics.framework in Frameworks */,
+				746FB807194ADCD60019D159 /* UIKit.framework in Frameworks */,
+				746FB803194ADCD60019D159 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FB81D194ADCD60019D159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746FB822194ADCD60019D159 /* XCTest.framework in Frameworks */,
+				746FB824194ADCD60019D159 /* UIKit.framework in Frameworks */,
+				746FB823194ADCD60019D159 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		746FB7F6194ADCD60019D159 = {
+			isa = PBXGroup;
+			children = (
+				746FB808194ADCD60019D159 /* iTap */,
+				746FB827194ADCD60019D159 /* iTapTests */,
+				746FB801194ADCD60019D159 /* Frameworks */,
+				746FB800194ADCD60019D159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		746FB800194ADCD60019D159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				746FB7FF194ADCD60019D159 /* iTap.app */,
+				746FB820194ADCD60019D159 /* iTapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		746FB801194ADCD60019D159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				746FB802194ADCD60019D159 /* Foundation.framework */,
+				746FB804194ADCD60019D159 /* CoreGraphics.framework */,
+				746FB806194ADCD60019D159 /* UIKit.framework */,
+				746FB821194ADCD60019D159 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		746FB808194ADCD60019D159 /* iTap */ = {
+			isa = PBXGroup;
+			children = (
+				746FB811194ADCD60019D159 /* AppDelegate.h */,
+				746FB812194ADCD60019D159 /* AppDelegate.m */,
+				746FB814194ADCD60019D159 /* Main.storyboard */,
+				746FB817194ADCD60019D159 /* ViewController.h */,
+				746FB818194ADCD60019D159 /* ViewController.m */,
+				746FB81A194ADCD60019D159 /* Images.xcassets */,
+				746FB809194ADCD60019D159 /* Supporting Files */,
+			);
+			path = iTap;
+			sourceTree = "<group>";
+		};
+		746FB809194ADCD60019D159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				746FB80A194ADCD60019D159 /* iTap-Info.plist */,
+				746FB80B194ADCD60019D159 /* InfoPlist.strings */,
+				746FB80E194ADCD60019D159 /* main.m */,
+				746FB810194ADCD60019D159 /* iTap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		746FB827194ADCD60019D159 /* iTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				746FB82D194ADCD60019D159 /* iTapTests.m */,
+				746FB828194ADCD60019D159 /* Supporting Files */,
+			);
+			path = iTapTests;
+			sourceTree = "<group>";
+		};
+		746FB828194ADCD60019D159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				746FB829194ADCD60019D159 /* iTapTests-Info.plist */,
+				746FB82A194ADCD60019D159 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		746FB7FE194ADCD60019D159 /* iTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746FB831194ADCD60019D159 /* Build configuration list for PBXNativeTarget "iTap" */;
+			buildPhases = (
+				746FB7FB194ADCD60019D159 /* Sources */,
+				746FB7FC194ADCD60019D159 /* Frameworks */,
+				746FB7FD194ADCD60019D159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTap;
+			productName = iTap;
+			productReference = 746FB7FF194ADCD60019D159 /* iTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746FB81F194ADCD60019D159 /* iTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746FB834194ADCD60019D159 /* Build configuration list for PBXNativeTarget "iTapTests" */;
+			buildPhases = (
+				746FB81C194ADCD60019D159 /* Sources */,
+				746FB81D194ADCD60019D159 /* Frameworks */,
+				746FB81E194ADCD60019D159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746FB826194ADCD60019D159 /* PBXTargetDependency */,
+			);
+			name = iTapTests;
+			productName = iTapTests;
+			productReference = 746FB820194ADCD60019D159 /* iTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		746FB7F7194ADCD60019D159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Amvrin Systems Pvt .Ltd.";
+				TargetAttributes = {
+					746FB81F194ADCD60019D159 = {
+						TestTargetID = 746FB7FE194ADCD60019D159;
+					};
+				};
+			};
+			buildConfigurationList = 746FB7FA194ADCD60019D159 /* Build configuration list for PBXProject "iTap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 746FB7F6194ADCD60019D159;
+			productRefGroup = 746FB800194ADCD60019D159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				746FB7FE194ADCD60019D159 /* iTap */,
+				746FB81F194ADCD60019D159 /* iTapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		746FB7FD194ADCD60019D159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746FB81B194ADCD60019D159 /* Images.xcassets in Resources */,
+				746FB80D194ADCD60019D159 /* InfoPlist.strings in Resources */,
+				746FB816194ADCD60019D159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FB81E194ADCD60019D159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746FB82C194ADCD60019D159 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		746FB7FB194ADCD60019D159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746FB819194ADCD60019D159 /* ViewController.m in Sources */,
+				746FB813194ADCD60019D159 /* AppDelegate.m in Sources */,
+				746FB80F194ADCD60019D159 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FB81C194ADCD60019D159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746FB82E194ADCD60019D159 /* iTapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		746FB826194ADCD60019D159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746FB7FE194ADCD60019D159 /* iTap */;
+			targetProxy = 746FB825194ADCD60019D159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		746FB80B194ADCD60019D159 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746FB80C194ADCD60019D159 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		746FB814194ADCD60019D159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746FB815194ADCD60019D159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		746FB82A194ADCD60019D159 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746FB82B194ADCD60019D159 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		746FB82F194ADCD60019D159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		746FB830194ADCD60019D159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		746FB832194ADCD60019D159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTap/iTap-Prefix.pch";
+				INFOPLIST_FILE = "iTap/iTap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		746FB833194ADCD60019D159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTap/iTap-Prefix.pch";
+				INFOPLIST_FILE = "iTap/iTap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		746FB835194ADCD60019D159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTap.app/iTap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTap/iTap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iTapTests/iTapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		746FB836194ADCD60019D159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTap.app/iTap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTap/iTap-Prefix.pch";
+				INFOPLIST_FILE = "iTapTests/iTapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		746FB7FA194ADCD60019D159 /* Build configuration list for PBXProject "iTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746FB82F194ADCD60019D159 /* Debug */,
+				746FB830194ADCD60019D159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746FB831194ADCD60019D159 /* Build configuration list for PBXNativeTarget "iTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746FB832194ADCD60019D159 /* Debug */,
+				746FB833194ADCD60019D159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		746FB834194ADCD60019D159 /* Build configuration list for PBXNativeTarget "iTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746FB835194ADCD60019D159 /* Debug */,
+				746FB836194ADCD60019D159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 746FB7F7194ADCD60019D159 /* Project object */;
+}
