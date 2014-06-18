@@ -13,7 +13,24 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), //center
+                                    NULL, // observer
+                                    onNotifyCallback, // callback
+                                    CFSTR("com.apple.system.config.network_change"), // event name
+                                    NULL, // object
+                                    CFNotificationSuspensionBehaviorDeliverImmediately);
     return YES;
+}
+
+static void onNotifyCallback(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
+{
+    NSString* notifyName = @"Network Changed";
+    // this check should really only be necessary if you reuse this one callback method
+    //  for multiple Darwin notification events
+    if ([notifyName isEqualToString:@"com.apple.system.config.network_change"]) {
+    } else {
+        NSLog(@"intercepted %@", notifyName);
+    }
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
