@@ -21,6 +21,14 @@
 		746FB824194ADCD60019D159 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746FB806194ADCD60019D159 /* UIKit.framework */; };
 		746FB82C194ADCD60019D159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 746FB82A194ADCD60019D159 /* InfoPlist.strings */; };
 		746FB82E194ADCD60019D159 /* iTapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FB82D194ADCD60019D159 /* iTapTests.m */; };
+		746FB83A194AF1660019D159 /* KKProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FB839194AF1660019D159 /* KKProgressTimer.m */; };
+		746FB83D194AF2AE0019D159 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FB83C194AF2AE0019D159 /* PlayViewController.m */; };
+		746FB83F194B17A50019D159 /* tap114.png in Resources */ = {isa = PBXBuildFile; fileRef = 746FB83E194B17A50019D159 /* tap114.png */; };
+		746FB843194B189D0019D159 /* tap58.png in Resources */ = {isa = PBXBuildFile; fileRef = 746FB840194B189D0019D159 /* tap58.png */; };
+		746FB844194B189D0019D159 /* tap80.png in Resources */ = {isa = PBXBuildFile; fileRef = 746FB841194B189D0019D159 /* tap80.png */; };
+		746FB845194B189D0019D159 /* tap120.png in Resources */ = {isa = PBXBuildFile; fileRef = 746FB842194B189D0019D159 /* tap120.png */; };
+		746FB848194B1AAA0019D159 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 746FB846194B1AAA0019D159 /* Default~iphone.png */; };
+		746FB849194B1AAA0019D159 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 746FB847194B1AAA0019D159 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		746FB829194ADCD60019D159 /* iTapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTapTests-Info.plist"; sourceTree = "<group>"; };
 		746FB82B194ADCD60019D159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		746FB82D194ADCD60019D159 /* iTapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTapTests.m; sourceTree = "<group>"; };
+		746FB838194AF1660019D159 /* KKProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressTimer.h; sourceTree = "<group>"; };
+		746FB839194AF1660019D159 /* KKProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProgressTimer.m; sourceTree = "<group>"; };
+		746FB83B194AF2AE0019D159 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		746FB83C194AF2AE0019D159 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		746FB83E194B17A50019D159 /* tap114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap114.png; sourceTree = "<group>"; };
+		746FB840194B189D0019D159 /* tap58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap58.png; sourceTree = "<group>"; };
+		746FB841194B189D0019D159 /* tap80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap80.png; sourceTree = "<group>"; };
+		746FB842194B189D0019D159 /* tap120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap120.png; sourceTree = "<group>"; };
+		746FB846194B1AAA0019D159 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		746FB847194B1AAA0019D159 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +130,14 @@
 		746FB808194ADCD60019D159 /* iTap */ = {
 			isa = PBXGroup;
 			children = (
+				746FB837194AF1660019D159 /* KKProgressTimer */,
 				746FB811194ADCD60019D159 /* AppDelegate.h */,
 				746FB812194ADCD60019D159 /* AppDelegate.m */,
 				746FB814194ADCD60019D159 /* Main.storyboard */,
 				746FB817194ADCD60019D159 /* ViewController.h */,
 				746FB818194ADCD60019D159 /* ViewController.m */,
+				746FB83B194AF2AE0019D159 /* PlayViewController.h */,
+				746FB83C194AF2AE0019D159 /* PlayViewController.m */,
 				746FB81A194ADCD60019D159 /* Images.xcassets */,
 				746FB809194ADCD60019D159 /* Supporting Files */,
 			);
@@ -126,6 +147,7 @@
 		746FB809194ADCD60019D159 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				746FB84A194B1B050019D159 /* Images */,
 				746FB80A194ADCD60019D159 /* iTap-Info.plist */,
 				746FB80B194ADCD60019D159 /* InfoPlist.strings */,
 				746FB80E194ADCD60019D159 /* main.m */,
@@ -150,6 +172,28 @@
 				746FB82A194ADCD60019D159 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		746FB837194AF1660019D159 /* KKProgressTimer */ = {
+			isa = PBXGroup;
+			children = (
+				746FB838194AF1660019D159 /* KKProgressTimer.h */,
+				746FB839194AF1660019D159 /* KKProgressTimer.m */,
+			);
+			path = KKProgressTimer;
+			sourceTree = "<group>";
+		};
+		746FB84A194B1B050019D159 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				746FB846194B1AAA0019D159 /* Default~iphone.png */,
+				746FB847194B1AAA0019D159 /* Default@2x.png */,
+				746FB840194B189D0019D159 /* tap58.png */,
+				746FB841194B189D0019D159 /* tap80.png */,
+				746FB842194B189D0019D159 /* tap120.png */,
+				746FB83E194B17A50019D159 /* tap114.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +272,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746FB83F194B17A50019D159 /* tap114.png in Resources */,
 				746FB81B194ADCD60019D159 /* Images.xcassets in Resources */,
+				746FB845194B189D0019D159 /* tap120.png in Resources */,
+				746FB849194B1AAA0019D159 /* Default@2x.png in Resources */,
+				746FB848194B1AAA0019D159 /* Default~iphone.png in Resources */,
 				746FB80D194ADCD60019D159 /* InfoPlist.strings in Resources */,
 				746FB816194ADCD60019D159 /* Main.storyboard in Resources */,
+				746FB843194B189D0019D159 /* tap58.png in Resources */,
+				746FB844194B189D0019D159 /* tap80.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746FB83A194AF1660019D159 /* KKProgressTimer.m in Sources */,
 				746FB819194ADCD60019D159 /* ViewController.m in Sources */,
 				746FB813194ADCD60019D159 /* AppDelegate.m in Sources */,
+				746FB83D194AF2AE0019D159 /* PlayViewController.m in Sources */,
 				746FB80F194ADCD60019D159 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
